@@ -23,4 +23,7 @@ paginate:         5
 version:          0.1-dev
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/mani-monaj/mani-monaj.github.io
+
+gems:
+  - jekyll-sitemap
