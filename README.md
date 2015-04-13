@@ -12,3 +12,5 @@ sudo gem install bundler
 cd path/to/repo
 bundle install
 ```
+
+To update all gems: `bundle update github-pages`
