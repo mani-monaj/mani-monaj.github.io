@@ -21,10 +21,12 @@ body {
 	padding-right: 20px; /* column-space */
 }
 
+/* Removed min-width to make simplegrid work inline - Mani */
+
 .grid {
 	width: 100%;
 	max-width: 1140px;
-	min-width: 755px;
+/*	min-width: 755px; */
 	margin: 0 auto;
 	overflow: hidden;
 }
