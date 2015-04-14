@@ -3,30 +3,25 @@ layout: default
 title: Home
 ---
 
-<a name="about"></a>
-<h2>About Me</h2> 
+<h2 id="about">About Me</h2> 
 
 {% capture about %}{% include section-about.md %}{% endcapture %}
 {{ about | markdownify }}
 
-<a name="projects"></a>
-<h2>Projects & Free Software</h2> 
+<h2 id="projects">Projects &amp; Free Software</h2> 
 
 {% include section-projects.html %}
 
-<a name="videos"></a>
-<h2>Videos</h2> 
+<h2 id="videos">Videos</h2> 
 
 {% include section-videos.html %}
 
-<a name="publications"></a>
-<h2>Publications</h2> 
+<h2 id="publications">Publications</h2> 
 
 {% capture publications %}{% include section-publications.md %}{% endcapture %}
 {{ publications | markdownify }}
 
-<a name="contact"></a>
-<h2>Contact</h2> 
+<h2 id="contact">Contact</h2> 
 
 {% capture contact %}{% include section-contact.md %}{% endcapture %}
 {{ contact | markdownify }}
