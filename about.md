@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Mani Monajjemi
+title: About Me
 ---
 
 {% include section-about.md %}
