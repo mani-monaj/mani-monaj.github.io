@@ -25,3 +25,8 @@ title: Home
 
 {% capture contact %}{% include section-contact.md %}{% endcapture %}
 {{ contact | markdownify }}
+
+<hr />
+<p style="text-align:right; color: gray">
+  <small>Last update: {{ site.time | date_to_string}}</small>
+</p>
