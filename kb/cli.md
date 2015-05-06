@@ -11,5 +11,9 @@ Display just the HTTP response using `curl` ([ref](http://beerpla.net/2010/06/10
 curl -IL example.com
 {% endhighlight %}
 
+Find the cause of last shutdown/reboot on <em>Linux</em> ([ref](http://unix.stackexchange.com/a/10351))
 
-
+{% highlight bash %}
+last reboot
+last -x | grep shutdown
+{% endhighlight %}
