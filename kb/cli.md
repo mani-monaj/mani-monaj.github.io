@@ -17,3 +17,9 @@ Find the cause of last shutdown/reboot on <em>Linux</em> ([ref](http://unix.stac
 last reboot
 last -x | grep shutdown
 {% endhighlight %}
+
+Restart Frozen dock in <em>Max OSX</em> ([ref](http://www.maclife.com/article/howtos/how_restart_frozen_dock))
+
+{% highlight bash %}
+killall Dock
+{% endhighlight %}
