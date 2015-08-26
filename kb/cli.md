@@ -23,3 +23,20 @@ Restart Frozen dock in <em>Max OSX</em> ([ref](http://www.maclife.com/article/ho
 {% highlight bash %}
 killall Dock
 {% endhighlight %}
+
+Inspect memory hardware in <em>Linux</em>
+
+{% highlight bash %}
+sudo lshw -C memory
+{% endhighlight %}
+
+Search and replace text in multipe files from command line (<em>Linux</em> and <em>Mac OS</em>)
+
+{% highlight bash %}
+find . -type f -name "<FILE_FILTER>" -exec sed -i 's/<SEARCH>/<REPLACE>/g' {} \;
+# e.g
+find . -type f -name "*.txt" -exec sed -i 's/hello/bye/g' {} \;
+{% endhighlight %}
+
+
+
