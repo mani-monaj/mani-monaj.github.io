@@ -38,5 +38,10 @@ find . -type f -name "<FILE_FILTER>" -exec sed -i 's/<SEARCH>/<REPLACE>/g' {} \;
 find . -type f -name "*.txt" -exec sed -i 's/hello/bye/g' {} \;
 {% endhighlight %}
 
+Copy SSH public key to a remote server when `ssh-copy-id` is not present
+
+{% highlight bash %}
+cat ~/.ssh/id_rsa.pub | ssh user@host "mkdir -p ~/.ssh; cat >> ~/.ssh/authorized_keys"
+{% endhighlight %}
 
 
