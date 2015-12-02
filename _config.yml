@@ -10,7 +10,8 @@ relative_permalinks: true
 title:            Mani Monajjemi
 tagline:          "Personal Website"
 description:      ''
-url:              http://mani.im
+url:              https://mani.im
+enforce_ssl:      mani.im
 baseurl:          /
 
 author:
