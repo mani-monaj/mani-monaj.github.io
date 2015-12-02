@@ -4,7 +4,7 @@ Feel free to contact me via [E-Mail](http://www.google.com/recaptcha/mailhide/d?
 { "@context" : "http://schema.org",
   "@type" : "Person",
   "name" : "Mani Monajjemi",
-  "url" : "http://mani.im",
+  "url" : "https://mani.im",
   "sameAs" : [ "https://twitter.com/mani_monaj",
       "https://github.com/mani-monaj",
       "https://plus.google.com/u/0/+ManiMonajjemi/",
