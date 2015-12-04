@@ -18,3 +18,7 @@ To update all gems: `bundle update github-pages`
 - Use `make -f minify.makefile` to minify js and css files. It is smart enough to compress only changed files and ignore -min.* files. It relies on [yui-compressor](http://yui.github.io/yuicompressor/). Makefile has been adapted from [here](http://wonko.com/post/simple-makefile-to-minify-css-and-js).
 
 - To perform loseless image compression, use [trimage](http://trimage.org/).
+
+## License & credits
+
+Please check [this page](https://mani.im/license/)
