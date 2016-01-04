@@ -5,6 +5,9 @@ published: true
 ---
 <p>&nbsp;</p>
 
+* Table of Contents:
+{:toc}
+
 Display just the HTTP response using `curl` ([ref](http://beerpla.net/2010/06/10/how-to-display-just-the-http-response-code-in-cli-curl/))
 
 {% highlight bash %}
