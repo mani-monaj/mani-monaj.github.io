@@ -3,9 +3,6 @@ layout: page
 title: "Useful CLI Commands"
 published: true
 ---
-* auto-gen TOC:
-{:toc}
-
 <p>&nbsp;</p>
 
 Display just the HTTP response using `curl` ([ref](http://beerpla.net/2010/06/10/how-to-display-just-the-http-response-code-in-cli-curl/))
@@ -53,4 +50,9 @@ Add Music Files to iTunes from Command Line (Mac) ([ref](http://apple.stackexcha
 open -a iTunes -g song.mp3
 {% endhighlight %}
 
+Fetch and pipe the content of a webpage `stdout`
+
+{% highlight bash %}
+wget -q http://target.url -O -
+{% endhighlight %}
 
