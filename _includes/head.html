@@ -8,7 +8,6 @@
   <meta name="description" content="Personal website of Mani Monajjemi (مانی منجمی), PhD student in robotics, autonomy engineer and a free software enthusiastic. ">
   <meta name="author" content="Mani Monajjemi">
   <meta charset="UTF-8">
-  
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
@@ -16,6 +15,8 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
+
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole-min.css">
@@ -44,11 +45,5 @@
   ga('create', 'UA-53562-4', 'auto');
   ga('send', 'pageview');
   </script>
-
-<!--script type="text/javascript">
-    var host = "mani.im";
-    if ((host == window.location.host) && (window.location.protocol != "https:"))
-        window.location.protocol = "https";
-</script-->
 
 </head>

@@ -44,4 +44,15 @@ Copy SSH public key to a remote server when `ssh-copy-id` is not present
 cat ~/.ssh/id_rsa.pub | ssh user@host "mkdir -p ~/.ssh; cat >> ~/.ssh/authorized_keys"
 {% endhighlight %}
 
+Add Music Files to iTunes from Command Line (Mac) ([ref](http://apple.stackexchange.com/questions/89234/adding-a-song-file-to-itunes-via-the-command-line-without-playing-the-file))
+
+{% highlight bash %}
+open -a iTunes -g song.mp3
+{% endhighlight %}
+
+Fetch and pipe the content of a webpage `stdout`
+
+{% highlight bash %}
+wget -q http://target.url -O -
+{% endhighlight %}
 
