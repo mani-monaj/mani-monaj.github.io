@@ -2,14 +2,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="{{ site.baseurl }}public/js/lazyYT-min.js"></script> 
     <script>
-        $( document ).ready(function() {            
-            // Pass some parameters
-            $('.js-lazyYT').lazyYT({
-              loading_text: 'Loading ...',
-              display_duration: true,
-              default_ratio: '16:9'
-            });
-        });
+       $( document ).ready(function() {
+          // Pass some parameters
+          $('.js-lazyYT').lazyYT('AIzaSyAYydzGOGrmDh6MJN6SLqlDDzJguljU91A', {
+            youtube_parameters: 'rel=0',
+            loading_text: 'Loading...',
+            default_ratio: '16:9',
+            display_duration: true,
+            callback: function() {
+              console.log(this);
+            },
+
+            // Advanced settings
+            video_loaded_class: 'lazyYT-video-loaded',
+            container_class: 'lazyYT-container'
+          });
+         });
     </script>
 
     {% for js_name in page.extra_js %}
