@@ -50,9 +50,22 @@ Add Music Files to iTunes from Command Line (Mac) ([ref](http://apple.stackexcha
 open -a iTunes -g song.mp3
 {% endhighlight %}
 
-Fetch and pipe the content of a webpage `stdout`
+Fetch and pipe the content of a webpage to `stdout`
 
 {% highlight bash %}
 wget -q http://target.url -O -
 {% endhighlight %}
 
+Create a rendered visual diff of a LaTeX project
+
+<small>Requirements:
+
+- `git` is used for version control
+- [latexdiff](https://www.ctan.org/pkg/latexdiff?lang=en) is installed
+- [git-latexdiff](https://gitlab.com/git-latexdiff/git-latexdiff) is installed
+
+</small>
+
+{% highlight bash %}
+git latexdiff --bibtex --main root.tex [--latexmk] OLD_HASH [NEW_HASH]
+{% endhighlight %}
