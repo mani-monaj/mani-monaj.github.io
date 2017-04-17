@@ -66,3 +66,10 @@ Create a rendered visual diff of a LaTeX project
 
 $ git latexdiff --bibtex --main root.tex [--latexmk] OLD_HASH [NEW_HASH]
 {% endhighlight %}
+
+Using `ssh-agent` to avoid typing in SSH passwords multiple times
+
+{% highlight bash %}
+$ eval `ssh-agent`
+$ ssh-add [/path/to/id_rsa]
+{% endhighlight %}
